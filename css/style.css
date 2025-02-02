@@ -4,7 +4,7 @@
 }
 :root {
     --primary-clr: rgb(238, 201, 207);
-    --secondary-clr:rgb(170, 191, 244);
+    --secondary-clr:rgb(191, 209, 253);
 }
 * {
     margin: 0;
@@ -117,7 +117,7 @@ body {
 }
 .calendar .day:not(.prev-date, .next-date):hover {
     color: #fff;
-    background-color: var(--primary-clr);
+    background-color: var(--secondary-clr);
 }
 .calendar .days .prev-date, .calendar .days .next-date {
     color: #b3b3b3;
@@ -139,6 +139,8 @@ body {
 }
 .calendar .days .today {
     font-size:1.1rem;
+    background-color: var(--primary-clr);
+    color:white;
 }
 .calendar .days .event {
     position: relative;
